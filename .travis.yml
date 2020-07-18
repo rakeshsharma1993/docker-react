@@ -10,6 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
+  edge: true
   region: "us-east-2"
   app: "react-application"
   env: "ReactApplication-env"
