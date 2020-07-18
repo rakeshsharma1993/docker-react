@@ -1,7 +1,7 @@
 FROM node:alpine
 
 WORKDIR '/app'
-
+RUN npm install handlebars@4.5.3
 COPY package.json .
 RUN npm install
 
